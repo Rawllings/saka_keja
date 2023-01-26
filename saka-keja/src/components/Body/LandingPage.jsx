@@ -1,6 +1,9 @@
 import React from "react";
+import DisplayProperties from "./DisplayProperties";
+import About from "./About";
+import Contact from "./Contact";
 
-function LandingPage() {
+function LandingPage({ sortedRentals }) {
   return (
     <>
       <div
@@ -10,13 +13,10 @@ function LandingPage() {
         style={{
           backgroundImage: "src/images/key-2114455_1280 (1).jpg",
         }}
-      >
-        {/* <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="" className="d-block w-100" alt="..." />
-          </div>
-        </div> */}
-      </div>
+      ></div>
+      <DisplayProperties sortedRentals={sortedRentals} />
+      <About />
+      <Contact />
     </>
   );
 }

@@ -1,65 +1,78 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function DisplayProperties() {
+function DisplayProperties({ sortedRentals }) {
+  // Array.isArray(users)
+  //   ? users.map(user => (
+  //       <div key={user.id.value}>
+  //         <h2>
+  //           Name: {user.name.first} {user.name.last}
+  //         </h2>
+  //       </div>
+  //     ))
+  //   : null
+
+  // {Array.isArray(obj)
+  //   ? obj.map(element => {
+  //       return <h2>{element}</h2>;
+  //     })
+  //   : null}
   return (
-    <div className="properties">
-      <h2 className="propertiesHead">Properties</h2>
-      <div class="card-group px-4 properties">
-        <div class="card">
-          <img
-            src="https://cdn.pixabay.com/photo/2018/02/10/15/12/architecture-3143801_1280.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://cdn.pixabay.com/photo/2017/03/13/07/17/apartment-2138949_1280.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/08/27/17/43/florida-1624651_1280.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
+    <>
+      <div className="row " style={{ gap: "3%" }}>
+        <h1 className="contacthead">Properties</h1>
+        {Array.isArray(sortedRentals)
+          ? sortedRentals.map((rental, index) => {
+              return (
+                <div className="col-2 mb-4 ">
+                  <div
+                    key={index}
+                    className="row no-gutters"
+                    style={{ width: "18rem;" }}
+                  >
+                    <div className="row ">
+                      <div className="card p-0 m-1 border border-success shadow p-3 mb-5 bg-body rounded">
+                        <div className="col md-3">
+                          <img
+                            src={rental.image}
+                            className="card-img-top"
+                            alt="..."
+                          />
+                        </div>
+
+                        <div className="card-body">
+                          <h5 className="card-text-sm">
+                            Size:
+                            <span className="text-success"> {rental.size}</span>
+                          </h5>
+
+                          <h5 className="card-text-sm">
+                            Price:
+                            <span className="text-success">
+                              {" "}
+                              {rental.price}
+                            </span>
+                          </h5>
+                          <h5 className="card-text-sm">
+                            Location:
+                            <span className="text-success">
+                              {" "}
+                              {rental.location}
+                            </span>
+                          </h5>
+                        </div>
+                        <Link to={`/properties/${rental.id}`}>
+                          <button className="btn btn-success">Details</button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+          : null}
       </div>
-    </div>
+    </>
   );
 }
 

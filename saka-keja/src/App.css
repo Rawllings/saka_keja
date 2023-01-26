@@ -54,10 +54,11 @@
   font-weight: bolder;
   font-size: 40px;
   padding-right: 400px;
+  color: white;
 }
 
 .keja {
-  color: red;
+  color: rgb(7, 165, 39);
 }
 
 .navlink {
@@ -65,7 +66,7 @@
   color: white;
 }
 .navlink:hover{
-  color: red;
+  color: rgb(7, 165, 39);
 }
 
 .dropdown {
@@ -83,12 +84,12 @@
 
 .team {
  
-  color: red;
+  color: rgb(7, 165, 39);
 }
 
 .aboutUs {
   text-align: center;
-  color: red;
+  color: rgb(7, 165, 39);
   font-size: 50px;
   padding-top: 3pc;
 }
@@ -115,7 +116,7 @@
 
 .propertiesHead {
   text-align: center;
-  color: red;
+  color: rgb(7, 165, 39);
   font-size: 50px;
 }
 
@@ -148,7 +149,7 @@
 
 .contacthead {
   text-align: center;
-  color: red;
+  color: rgb(7, 165, 39);
   font-size: 50px;
   padding-top: 5pc;
 }
