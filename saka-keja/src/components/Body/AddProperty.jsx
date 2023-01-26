@@ -8,6 +8,20 @@ function AddProperty({ rentals, setRentals }) {
   const [location, setLocation] = useState("");
   const [description, setDescription] = useState("");
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    setRentals([
+      ...rentals,
+      { name, image, size, price, location, description },
+    ]);
+    setName("");
+    setImage("");
+    setSize("");
+    setPrice(0);
+    setLocation("");
+    setDescription("");
+  }
+
   return (
     <div>
       <h1 className="text-center text-success py-5">Add Property</h1>
