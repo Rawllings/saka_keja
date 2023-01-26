@@ -12,7 +12,6 @@ function LandingPage({ sortedRentals }) {
         data-bs-ride="carousel"
         style={{
           backgroundImage: "src/images/key-2114455_1280 (1).jpg",
-          opacity: "100pc",
         }}
       >
         {" "}
