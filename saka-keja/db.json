@@ -7,7 +7,7 @@
       "size": "Bedsitter",
       "price": "5,000",
       "location": "Ruai",
-      "description": "In good condition.",
+      "description": "Easily accessible, near to social amenities and secuirty is available",
       "id": 1
     },
     {
@@ -17,6 +17,7 @@
       "size": "Single",
       "price": "3,500",
       "location": "Thika",
+      "description": "New houses wiht water, and security available",
       "id": 2
     },
     {
@@ -26,7 +27,7 @@
       "size": "Two bedroom",
       "price": "20,000",
       "location": "Westlands",
-      "description": "In good condition.",
+      "description": "Quite and highly secure place to live",
       "id": 3
 
     },
@@ -36,7 +37,7 @@
       "size": "One bedroom",
       "price": "10,000",
       "location": "Sukari",
-      "description": "In good condition.",
+      "description": "Houses with water and security available",
       "id": 4
     },
     {
@@ -45,7 +46,7 @@
       "size": "One bedroom",
       "price": "15,000",
       "location": "Umoja",
-      "description": "In good condition.",
+      "description": "Water, social amenities, and security available",
       "id": 5
     },
     {
@@ -55,7 +56,7 @@
       "size": "Bedsitter",
       "price": "KSH.55,000",
       "location": "South B",
-      "description": "In good condition.",
+      "description": "Available in good condition. All other requirements available",
       "id": 6
     },
     {
@@ -65,7 +66,7 @@
       "size": "One bedroom",
       "price": "15,000",
       "location": "Kikuyu",
-      "description": "In good condition.",
+      "description": "Security is good",
       "id": 7
     },
     {
@@ -75,7 +76,7 @@
       "size": "Two bedroom",
       "price": "40,000",
       "location": "Embakasi",
-      "description": "In good condition.",
+      "description": "In good condition with water and security available",
       "id": 8
     },
     {
@@ -85,7 +86,7 @@
       "size": "One bedroom",
       "price": "12,000",
       "location": "Kayole",
-      "description": "In good condition.",
+      "description": "Has the best security system and spacious",
       "id": 9
 
     },
@@ -96,7 +97,7 @@
       "size": "Single",
       "price": "4,500",
       "location": "Githurai",
-      "description": "In good condition.",
+      "description": "Near to the road and easily accessible",
       "id": 10
     },
     {
@@ -106,7 +107,7 @@
       "size": "Two bedroom",
       "price": "35,000",
       "location": "Wendani",
-      "description": "In good condition.",
+      "description": "Available and in best condition",
       "id": 11
     },
     {
@@ -116,7 +117,7 @@
       "size": "Single",
       "price": "4,300",
       "location": "Ruiru",
-      "description": "In good condition.",
+      "description": "In best condition and equiped with internet",
       "id": 12
     },
     {
