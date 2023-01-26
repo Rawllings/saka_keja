@@ -91,6 +91,8 @@ function AddProperty({ rentals, setRentals }) {
             Image location
           </label>
           <input
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
@@ -101,6 +103,8 @@ function AddProperty({ rentals, setRentals }) {
             Description
           </label>
           <textarea
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
             class="form-control"
             id="exampleFormControlTextarea1"
             rows="3"

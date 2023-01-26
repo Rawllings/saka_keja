@@ -1,126 +1,142 @@
 {
-    "rentals":[
-        {
-            "id": 1,
-            "name": "Graceland",
-            "image":"https://cdn.pixabay.com/photo/2018/02/10/15/12/architecture-3143801_1280.jpg",
-            "size": "Bedsitter",
-            "price": "KSH.5,000",
-            "location":"Ruai"
-        },
-        {
-            "id": 2,
-            "name": "Namunyak",
-            "image":"https://cdn.pixabay.com/photo/2019/03/26/09/56/prefab-4082213_1280.jpg",
-            "size": "Single",
-            "price":"KSH.3,500",
-            "location":"Thika"
-         },
-        {
-            "id": 3,
-            "name": "Savannah Court",
-            "image":"https://cdn.pixabay.com/photo/2018/04/07/03/06/real-estate-3297625_1280.jpg",
-            "size": "Two bedroom",
-            "price":"KSH.20,000",
-            "location":"Westlands"
-        },
-        {
-            "id": 4,
-            "name": "Milan appartments",
-            "image":"https://cdn.pixabay.com/photo/2017/03/13/07/17/apartment-2138949_1280.jpg",
-            "size": "One bedroom",
-            "price":"KSH.10,000",
-            "location":"Sukari"
-        },
-        {
-            "id": 5,
-            "name": "Githima",
-            "image":"https://cdn.pixabay.com/photo/2015/08/09/20/44/tenement-house-882149_1280.jpg",
-            "size": "One bedroom",
-            "price": "KSH.15,000",
-            "location":"Umoja"
-        },
-        {
-            "id": 6,
-            "name": "Nawiri House",
-            "image":"https://cdn.pixabay.com/photo/2019/12/20/17/27/south-houston-4708889_1280.jpg",
-            "size": "Bedsitter",
-            "price": "KSH.55,000",
-            "location":"South B"
-        },
-        {
-            "id": 7,
-            "name": "Ridgeways",
-            "image":"https://cdn.pixabay.com/photo/2017/10/06/04/33/new-housing-development-2821968_1280.jpg",
-            "size": "One bedroom",
-            "price":"KSH.15,000",
-            "location":"Kikuyu"
-        },
-        {
-            "id": 8,
-            "name": "Marura Block",
-            "image":"https://cdn.pixabay.com/photo/2017/07/12/17/58/balcony-2497684_1280.jpg",
-            "size": "Two bedroom",
-            "price":"KSH.40,000",
-            "location":"Embakasi"
-        },
-        {
-            "id": 9,
-            "name": "Mawingu Greens",
-            "image":"https://cdn.pixabay.com/photo/2017/03/13/07/13/residential-area-2138933_1280.jpg",
-            "size": "One bedroom",
-            "price":"KSH.12,000",
-            "location":"Kayole"
-        },
-        {
-            "id": 10,
-            "name": "Tigithi House",
-            "image":"https://cdn.pixabay.com/photo/2020/11/17/10/32/japanese-5751965_1280.jpg",
-            "size": "Single",
-            "price":"KSH.4,500",
-            "location":"Githurai"
-        },
-        {
-            "id": 11,
-            "name": "Sunrise Appartments",
-            "image":"https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
-            "size": "Two bedroom",
-            "price": "KSH.35,000",
-            "location":"Wendani"
-        },
-        {
-            "id": 12,
-            "name": "Eden Palace",
-            "image":"https://cdn.pixabay.com/photo/2022/02/28/12/52/building-7039128_1280.jpg",
-            "size": "Two bedroom",
-            "price": "KSH.50,000",
-            "location":"Ruiru"
-
-        },
-        {
-            "id": 13,
-            "name": "Sunrise Appartments",
-            "image":"https://cdn.pixabay.com/photo/2020/04/30/18/52/house-5114194_1280.jpg",
-            "size": "Two bedroom",
-            "price": "KSH.35,000",
-            "location":"Paris"
-        },
-        {
-            "id": 14,
-            "name": "Sunrise Appartments",
-            "image":"https://cdn.pixabay.com/photo/2022/03/03/14/00/thailand-7045402_1280.jpg",
-            "size": "Two bedroom",
-            "price": "KSH.35,000",
-            "location":"Mirema"
-        },
-        {
-            "id": 15,
-            "name": "Sunrise Appartments",
-            "image":"https://cdn.pixabay.com/photo/2017/01/30/14/51/architecture-2021001_1280.jpg",
-            "size": "Two bedroom",
-            "price": "KSH.35,000",
-            "location":"Roysambu"
-        }
-    ]
-
+  "rentals": [
+    {
+      "id": 1,
+      "name": "Graceland",
+      "image": "https://cdn.pixabay.com/photo/2018/02/10/15/12/architecture-3143801_1280.jpg",
+      "size": "Bedsitter",
+      "price": "KSH.5,000",
+      "location": "Ruai"
+    },
+    {
+      "id": 2,
+      "name": "Namunyak",
+      "image": "https://cdn.pixabay.com/photo/2019/03/26/09/56/prefab-4082213_1280.jpg",
+      "size": "Single",
+      "price": "KSH.3,500",
+      "location": "Thika"
+    },
+    {
+      "id": 3,
+      "name": "Savannah Court",
+      "image": "https://cdn.pixabay.com/photo/2018/04/07/03/06/real-estate-3297625_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.20,000",
+      "location": "Westlands"
+    },
+    {
+      "id": 4,
+      "name": "Milan appartments",
+      "image": "https://cdn.pixabay.com/photo/2017/03/13/07/17/apartment-2138949_1280.jpg",
+      "size": "One bedroom",
+      "price": "KSH.10,000",
+      "location": "Sukari"
+    },
+    {
+      "id": 5,
+      "name": "Githima",
+      "image": "https://cdn.pixabay.com/photo/2015/08/09/20/44/tenement-house-882149_1280.jpg",
+      "size": "One bedroom",
+      "price": "KSH.15,000",
+      "location": "Umoja"
+    },
+    {
+      "id": 6,
+      "name": "Nawiri House",
+      "image": "https://cdn.pixabay.com/photo/2019/12/20/17/27/south-houston-4708889_1280.jpg",
+      "size": "Bedsitter",
+      "price": "KSH.55,000",
+      "location": "South B"
+    },
+    {
+      "id": 7,
+      "name": "Ridgeways",
+      "image": "https://cdn.pixabay.com/photo/2017/10/06/04/33/new-housing-development-2821968_1280.jpg",
+      "size": "One bedroom",
+      "price": "KSH.15,000",
+      "location": "Kikuyu"
+    },
+    {
+      "id": 8,
+      "name": "Marura Block",
+      "image": "https://cdn.pixabay.com/photo/2017/07/12/17/58/balcony-2497684_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.40,000",
+      "location": "Embakasi"
+    },
+    {
+      "id": 9,
+      "name": "Mawingu Greens",
+      "image": "https://cdn.pixabay.com/photo/2017/03/13/07/13/residential-area-2138933_1280.jpg",
+      "size": "One bedroom",
+      "price": "KSH.12,000",
+      "location": "Kayole"
+    },
+    {
+      "id": 10,
+      "name": "Tigithi House",
+      "image": "https://cdn.pixabay.com/photo/2020/11/17/10/32/japanese-5751965_1280.jpg",
+      "size": "Single",
+      "price": "KSH.4,500",
+      "location": "Githurai"
+    },
+    {
+      "id": 11,
+      "name": "Sunrise Appartments",
+      "image": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.35,000",
+      "location": "Wendani"
+    },
+    {
+      "id": 12,
+      "name": "Eden Palace",
+      "image": "https://cdn.pixabay.com/photo/2022/02/28/12/52/building-7039128_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.50,000",
+      "location": "Ruiru"
+    },
+    {
+      "id": 13,
+      "name": "Sunrise Appartments",
+      "image": "https://cdn.pixabay.com/photo/2020/04/30/18/52/house-5114194_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.35,000",
+      "location": "Paris"
+    },
+    {
+      "id": 14,
+      "name": "Sunrise Appartments",
+      "image": "https://cdn.pixabay.com/photo/2022/03/03/14/00/thailand-7045402_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.35,000",
+      "location": "Mirema"
+    },
+    {
+      "id": 15,
+      "name": "Sunrise Appartments",
+      "image": "https://cdn.pixabay.com/photo/2017/01/30/14/51/architecture-2021001_1280.jpg",
+      "size": "Two bedroom",
+      "price": "KSH.35,000",
+      "location": "Roysambu"
+    },
+    {
+      "name": "royal green",
+      "image": "",
+      "size": "Single",
+      "price": "4500",
+      "location": "Rafiki",
+      "description": "In good condition.",
+      "id": 16
+    },
+    {
+      "name": "Eldoret",
+      "image": "https://cdn.pixabay.com/photo/2017/01/09/00/49/snow-1964361_1280.jpg",
+      "size": "Two bedroom",
+      "price": "30000",
+      "location": "Langas",
+      "description": "Its near all social amenities has water, power and best security.",
+      "id": 17
+    }
+  ]
 }

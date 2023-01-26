@@ -36,6 +36,10 @@ function HouseDetails() {
                   Location:
                   <span className="text-success"> {rentals.location}</span>
                 </h5>
+                <p className="card-text-sm">
+                  Description:
+                  <span className="text-success"> {rentals.description}</span>
+                </p>
               </div>
 
               <button className="btn btn-success">Details</button>
