@@ -34,17 +34,21 @@ function AddProperty({ rentals, setRentals }) {
         location,
         description,
       }),
-    });
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
   }
 
   return (
     <div>
       <h1 className="text-center text-success py-5">Add Property</h1>
 
-      <form class="card-body container">
+      <form class="card-body container" onSubmit={handleSubmit}>
         <div class="mb-3">
           <label class="form-label">Enter name</label>
           <input
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
@@ -53,6 +57,8 @@ function AddProperty({ rentals, setRentals }) {
         <div class="mb-3">
           <label class="form-label">Image url</label>
           <input
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
@@ -61,6 +67,8 @@ function AddProperty({ rentals, setRentals }) {
         <div class="mb-3">
           <label class="form-label">Enter size</label>
           <input
+            value={size}
+            onChange={(e) => setSize(e.target.value)}
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
@@ -71,6 +79,8 @@ function AddProperty({ rentals, setRentals }) {
             Enter price
           </label>
           <input
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
             type="number"
             class="form-control"
             id="exampleFormControlInput1"
