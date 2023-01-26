@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
   function filterSizeHouse(e) {
-    setFilteredRentals(e.targett.value);
+    setFilteredRentals(e.target.value);
   }
 
   return (
