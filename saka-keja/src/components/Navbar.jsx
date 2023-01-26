@@ -59,9 +59,9 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
                 className="form-select dropdown"
                 aria-label="Default select example"
                 onChange={filterSizeHouse}
-                defaultValue={"all"}
+                defaultValue={"All"}
               >
-                <option className="dropdown" selected>
+                <option className="dropdown" value="All" selected>
                   All
                 </option>
                 <option value="Single">Single</option>
@@ -79,6 +79,12 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
                 placeholder="Search"
                 aria-label="Search"
               />
+              <Link className="nav-link" to="add">
+                {" "}
+                <button class="btn btn-outline-success" type="submit">
+                  Add
+                </button>
+              </Link>
             </form>
           </div>
         </div>

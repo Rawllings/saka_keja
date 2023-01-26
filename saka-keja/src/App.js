@@ -9,6 +9,7 @@ import DisplayProperties from "./components/Body/DisplayProperties";
 import About from "./components/Body/About";
 import Contact from "./components/Body/Contact";
 import HouseDetails from "./components/Body/HouseDetails";
+import AddProperty from "./components/Body/AddProperty";
 // import Layout from "./components/Layout";
 
 function App() {
@@ -51,6 +52,10 @@ function App() {
         <Route
           path="/"
           element={<LandingPage sortedRentals={sortedRentals} />}
+        />
+        <Route
+          path="/add"
+          element={<AddProperty rentals={rentals} setRentals={setRentals} />}
         />
         <Route path="/properties" element={<DisplayProperties />} />
         <Route exact path="/properties/:id" element={<HouseDetails />} />
