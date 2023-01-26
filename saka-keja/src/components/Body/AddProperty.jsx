@@ -20,6 +20,21 @@ function AddProperty({ rentals, setRentals }) {
     setPrice(0);
     setLocation("");
     setDescription("");
+
+    fetch(" http://localhost:8001/rentals", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        image,
+        size,
+        price,
+        location,
+        description,
+      }),
+    });
   }
 
   return (
