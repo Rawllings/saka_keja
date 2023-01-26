@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function HouseDetails() {
   const { id } = useParams();
@@ -29,7 +29,7 @@ function HouseDetails() {
                 </h5>
 
                 <h5 className="card-text-sm">
-                  Price:
+                  Price KSH:
                   <span className="text-success"> {rentals.price}</span>
                 </h5>
                 <h5 className="card-text-sm">
@@ -42,7 +42,9 @@ function HouseDetails() {
                 </p>
               </div>
 
-              <button className="btn btn-success">Details</button>
+              <Link to="/">
+                <button className="btn btn-success">Back</button>
+              </Link>
             </div>
           </div>
         </div>

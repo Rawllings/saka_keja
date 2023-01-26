@@ -192,3 +192,14 @@
 .rights {
   padding-right: 10pc;
 }
+.landingText {
+  font-size: 130px;
+  font-weight: 900;
+  color: #000000;
+}
+.landingWords {
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: lighter;
+  
+}
