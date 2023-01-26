@@ -21,7 +21,7 @@ function LandingPage({ sortedRentals }) {
             Saka-<span className="keja">Keja</span>
           </h1>
           <p>
-            <small className="landingWords py-0px">
+            <small className="landingWords py-0">
               Your next dream house is just one button away...
             </small>
           </p>

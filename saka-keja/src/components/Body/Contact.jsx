@@ -2,10 +2,10 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="card">
+    <section className="row">
       <h1 className="contacthead">Contacts</h1>
-      <div className=" maincontact">
-        <div className=" card contact ">
+      <div className=" maincontact ">
+        <div className=" card contact col-sm-6 ">
           <h3>Enter your details</h3>
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">
@@ -58,8 +58,8 @@ function Contact() {
         </div>
 
         {/* our contacts  */}
-        <div className=" card ourcontact">
-          <div className="contact">
+        <div className=" card ourcontact  col-sm-6 ">
+          <div className="contact ">
             <h2>Our Contacts</h2>
             <p></p>
 
