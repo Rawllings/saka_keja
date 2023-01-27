@@ -15,7 +15,7 @@ function About() {
               <img
                 src="https://cdn.pixabay.com/photo/2015/01/06/08/05/home-589985_1280.jpg"
                 alt="House"
-                className="img-thumbnail"
+                className="img-thumbnail border-0"
               />
             </div>
           </div>
