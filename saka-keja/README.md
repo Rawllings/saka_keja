@@ -1,10 +1,10 @@
 # Saka-Keja
 
-## Author : Rawllings Kiprop, Date: 15/01/2023
+## Author : Rawllings Kiprop, Date: 27/01/2023
 
 ## Project Description
 
-The purpose of this project is to come up with a Bank of Flatiron Transaction system. It has a date of transaction, description, category of the income and finally the amount of money a client is depositing or withdrawing from the bank of Flatiron. We also have a database where each transaction is stored and updated in the server.
+The purpose of this project is to come up with a website that will link landlords and tenants together. We also want to reduce the amount of work that the tenants go through to get the house they want to live in. With the property list displayed in the website and it contains all the details and the landlord phone numbers and email addresses. Houses are categorized into sizes so for a person looking for a specific house size, they are filtered out when they click the size option. Finally, they are able to search the location they want to look for the house using the search bar.
 
 SCREENSHOTS
 

@@ -7,19 +7,21 @@ function AddProperty({ rentals, setRentals }) {
   const [size, setSize] = useState("");
   const [price, setPrice] = useState(0);
   const [location, setLocation] = useState("");
+  const [phone, setPhone] = useState(0);
   const [description, setDescription] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
     setRentals([
       ...rentals,
-      { name, image, size, price, location, description },
+      { name, image, size, price, location, phone, description },
     ]);
     setName("");
     setImage("");
     setSize("");
     setPrice(0);
     setLocation("");
+    setPhone(0);
     setDescription("");
 
     fetch(" http://localhost:8001/rentals", {
@@ -33,6 +35,7 @@ function AddProperty({ rentals, setRentals }) {
         size,
         price,
         location,
+        phone,
         description,
       }),
     })
@@ -89,12 +92,24 @@ function AddProperty({ rentals, setRentals }) {
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">
-            Image location
+            Location
           </label>
           <input
             value={location}
             onChange={(e) => setLocation(e.target.value)}
             type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">
+            Phone
+          </label>
+          <input
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            type="number"
             class="form-control"
             id="exampleFormControlInput1"
           />
