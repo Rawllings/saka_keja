@@ -22,10 +22,11 @@ function About() {
           <h3 className="about">
             If you want a house to move into and you have no time to go and
             search for it, don't worry because Saka-keja is here and we got your
-            back. choice. With the
-            <span className="team">“MEET THE TEAM”</span> section near the top,
-            geometric designs, and striking typography, you'll be able to
-            showcase the humans behind your brand.
+            back. With the
+            <span className="team">“TEAM”</span> ready to assist you to get your
+            dream house. Saka-Keja is a house hunt website that connects
+            landlords and people searching for rental houses with just one
+            browse.
           </h3>
         </div>
       </div>
