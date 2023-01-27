@@ -81,7 +81,7 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
               />
               <Link className="nav-link" to="add">
                 {" "}
-                <button class="btn btn-outline-success" type="submit">
+                <button class="btn btn-outline-success btn-white" type="submit">
                   Add
                 </button>
               </Link>

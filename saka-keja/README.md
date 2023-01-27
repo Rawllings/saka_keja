@@ -36,7 +36,7 @@ Click on go live to to view the page on the browser.
 
 ## Live Link
 
-Or you can access the web application directly via this [LINK]().
+Or you can access the web application directly via this [LINK](https://saka-keja-xy3n.vercel.app/).
 
 ## Contact Information
 
