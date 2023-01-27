@@ -112,6 +112,7 @@ function AddProperty({ rentals, setRentals }) {
           ></textarea>
         </div>
         <input type="submit" class="btn btn-success" value="Submit" />
+
         <Link to="/">
           <button className="btn btn-success bttn">Back</button>
         </Link>
