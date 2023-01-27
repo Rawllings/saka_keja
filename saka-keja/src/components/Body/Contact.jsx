@@ -7,62 +7,80 @@ function Contact() {
   const [phone, setPhone] = useState(0);
   const [description, setDescription] = useState("");
 
-  function handleSubmit(e) {
+  function handleAdd(e) {
     e.preventDefault();
-    setClients(...clients, { email, password, phone, description });
+    setClients([...clients, { email, password, phone, description }]);
+    setEmail("");
+    setPassword("");
+    setPhone(0);
+    setDescription("");
+
+    fetch("http://localhost:8001/clients", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password,
+        phone,
+        description,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
   }
 
   return (
     <section className="row">
       <h1 className="contacthead">Contacts</h1>
-      <div className=" maincontact ">
-        <form className=" card contact col-sm-6 ">
-          <h3>Enter your details</h3>
-          <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
-              Email address
-            </label>
+      <h3>Enter your details</h3>
+      <div className=" maincontact card px-1000">
+        <form class="card-body card" onSubmit={handleAdd}>
+          <div class="mb-3">
+            <label class="form-label">Enter email</label>
             <input
-              type="email"
-              className="form-control"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              class="form-control"
               id="exampleFormControlInput1"
             />
           </div>
-          <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
-              Password
-            </label>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
             <input
-              type="password"
-              className="form-control"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              type="text"
+              class="form-control"
               id="exampleFormControlInput1"
             />
           </div>
-          <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
-              Phone number
-            </label>
+          <div class="mb-3">
+            <label class="form-label">Enter phone</label>
             <input
-              type="number"
-              className="form-control"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              type="text"
+              class="form-control"
               id="exampleFormControlInput1"
             />
           </div>
-          <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label">
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">
               Description
             </label>
             <textarea
-              className="form-control"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
             ></textarea>
           </div>
-          <div className="mb-3">
-            <button type="submit" className="btn btn-success">
-              Submit
-            </button>
-          </div>
+          <input type="submit" class="btn btn-success" value="Submit" />
         </form>
 
         {/* our contacts  */}
