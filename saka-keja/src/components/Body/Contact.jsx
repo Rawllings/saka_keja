@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [clients, setClients] = useState([]);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState(0);
+  const [description, setDescription] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setClients(...clients, { email, password, phone, description });
+  }
+
   return (
     <section className="row">
       <h1 className="contacthead">Contacts</h1>
       <div className=" maincontact ">
-        <div className=" card contact col-sm-6 ">
+        <form className=" card contact col-sm-6 ">
           <h3>Enter your details</h3>
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">
@@ -15,7 +26,6 @@ function Contact() {
               type="email"
               className="form-control"
               id="exampleFormControlInput1"
-              placeholder="name@example.com"
             />
           </div>
           <div className="mb-3">
@@ -26,7 +36,6 @@ function Contact() {
               type="password"
               className="form-control"
               id="exampleFormControlInput1"
-              placeholder="name@example.com"
             />
           </div>
           <div className="mb-3">
@@ -37,7 +46,6 @@ function Contact() {
               type="number"
               className="form-control"
               id="exampleFormControlInput1"
-              placeholder="name@example.com"
             />
           </div>
           <div className="mb-3">
@@ -55,7 +63,7 @@ function Contact() {
               Submit
             </button>
           </div>
-        </div>
+        </form>
 
         {/* our contacts  */}
         <div className=" card ourcontact  col-sm-6 ">
