@@ -18,6 +18,10 @@ function Footer() {
       <div className="rights">
         <p>Copyright ©2022 All rights reserved</p>
       </div>
+      <p className="landingWords py-0">
+        {" "}
+        Your next dream house is just one button away...
+      </p>
     </footer>
   );
 }

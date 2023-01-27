@@ -13,8 +13,9 @@ function HouseDetails() {
 
   return (
     <div>
+      <h1 className="text-center">House Details</h1>
       House {id}
-      <div className="col-2 mb-4 ">
+      <div className="col-2 mb-4 center">
         <div className="row no-gutters" style={{ width: "18rem;" }}>
           <div className="row ">
             <div className="card p-0 m-1 border border-success shadow p-3 mb-5 bg-body rounded">

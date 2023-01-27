@@ -48,6 +48,7 @@
 
 .headwords {
   color: white;
+  padding-right: 1pc;
 }
 
 .logoo {
@@ -71,11 +72,12 @@
 
 .dropdown {
   padding-left: 10px;
-  padding-left: 10px;
+
+
 }
 
 .search {
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 /* .background {
