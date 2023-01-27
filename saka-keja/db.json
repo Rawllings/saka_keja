@@ -26,7 +26,7 @@
       "size": "Two bedroom",
       "price": "20,000",
       "location": "Westlands",
-      "phone": "0707134166",
+      "phone": "+254707134166",
       "description": "Quite and highly secure place to live",
       "id": 3
     },
@@ -36,7 +36,7 @@
       "size": "One bedroom",
       "price": "10,000",
       "location": "Sukari",
-      "phone": "0999",
+      "phone": "+254722599390",
       "description": "Houses with water and security available",
       "id": 4
     },
@@ -46,7 +46,7 @@
       "size": "One bedroom",
       "price": "15,000",
       "location": "Umoja",
-      "phone": "0999",
+      "phone": "+254734198513",
       "description": "Water, social amenities, and security available",
       "id": 5
     },
@@ -56,7 +56,7 @@
       "size": "Bedsitter",
       "price": "KSH.55,000",
       "location": "South B",
-      "phone": "0999",
+      "phone": "+254713026331",
       "description": "Available in good condition. All other requirements available",
       "id": 6
     },
@@ -66,7 +66,7 @@
       "size": "One bedroom",
       "price": "15,000",
       "location": "Kikuyu",
-      "phone": "0999",
+      "phone": "+254746231007",
       "description": "Security is good",
       "id": 7
     },
@@ -76,7 +76,7 @@
       "size": "Two bedroom",
       "price": "40,000",
       "location": "Embakasi",
-      "phone": "0999",
+      "phone": "+254789113027",
       "description": "In good condition with water and security available",
       "id": 8
     },
@@ -86,7 +86,7 @@
       "size": "One bedroom",
       "price": "12,000",
       "location": "Kayole",
-      "phone": "0999",
+      "phone": "+254733016277",
       "description": "Has the best security system and spacious",
       "id": 9
     },
@@ -96,7 +96,7 @@
       "size": "Single",
       "price": "4,500",
       "location": "Githurai",
-      "phone": "0999",
+      "phone": "+254723881390",
       "description": "Near to the road and easily accessible",
       "id": 10
     },
@@ -106,7 +106,7 @@
       "size": "Two bedroom",
       "price": "35,000",
       "location": "Wendani",
-      "phone": "0999",
+      "phone": "+254721902672",
       "description": "Available and in best condition",
       "id": 11
     },
@@ -115,7 +115,7 @@
       "image": "https://cdn.pixabay.com/photo/2022/02/28/12/52/building-7039128_1280.jpg",
       "size": "Single",
       "price": "4,300",
-      "location": "Ruiru",
+      "location": "+254711936410",
       "phone": "0999",
       "description": "In best condition and equiped with internet",
       "id": 12
@@ -126,7 +126,7 @@
       "size": "Two bedroom",
       "price": "35,000",
       "location": "Paris",
-      "phone": "0999",
+      "phone": "+254722017339",
       "description": "Water and internet available",
       "id": 13
     },
@@ -136,7 +136,7 @@
       "size": "One bedroom",
       "price": "18,000",
       "location": "Mirema",
-      "phone": "0999",
+      "phone": "+254700135775",
       "description": "Best residential area to live in.",
       "id": 14
     },
@@ -146,7 +146,7 @@
       "size": "Two bedroom",
       "price": "35,000",
       "location": "Roysambu",
-      "phone": "0999",
+      "phone": "+254703115952",
       "description": "In good condition and highly secured.",
       "id": 15
     },
@@ -156,7 +156,7 @@
       "size": "Single",
       "price": "4500",
       "location": "Rafiki",
-      "phone": "0999",
+      "phone": "+25410800421",
       "description": "In good condition.",
       "id": 16
     },
@@ -166,7 +166,7 @@
       "size": "Two bedroom",
       "price": "30000",
       "location": "Langas",
-      "phone": "0999",
+      "phone": "+254719381991",
       "description": "Its near all social amenities has water, power and best security.",
       "id": 17
     }

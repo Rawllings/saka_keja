@@ -38,7 +38,7 @@ function HouseDetails() {
                   <span className="text-success"> {rentals.location}</span>
                 </h5>
                 <h5 className="card-text-sm">
-                  Phone:
+                  Contact:
                   <span className="text-success"> {rentals.phone}</span>
                 </h5>
                 <p className="card-text-sm">
