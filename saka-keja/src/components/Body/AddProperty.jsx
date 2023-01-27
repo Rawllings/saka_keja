@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function AddProperty({ rentals, setRentals }) {
   const [name, setName] = useState("");
@@ -111,6 +112,9 @@ function AddProperty({ rentals, setRentals }) {
           ></textarea>
         </div>
         <input type="submit" class="btn btn-success" value="Submit" />
+        <Link to="/">
+          <button className="btn btn-success bttn">Back</button>
+        </Link>
       </form>
     </div>
   );
