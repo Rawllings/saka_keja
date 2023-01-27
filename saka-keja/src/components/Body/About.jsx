@@ -20,8 +20,9 @@ function About() {
             </div>
           </div>
           <h3 className="about">
-            If you want something with a little flavor, the Touraza template is
-            a tasteful choice. With the{" "}
+            If you want a house to move into and you have no time to go and
+            search for it, don't worry because Saka-keja is here and we got your
+            back. choice. With the
             <span className="team">“MEET THE TEAM”</span> section near the top,
             geometric designs, and striking typography, you'll be able to
             showcase the humans behind your brand.
