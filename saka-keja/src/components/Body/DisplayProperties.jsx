@@ -18,8 +18,8 @@ function DisplayProperties({ sortedRentals }) {
   //     })
   //   : null}
   return (
-    <>
-      <div className="row " style={{ gap: "3%" }}>
+    <div className="card">
+      <div className="row container-flex " style={{ gap: "3%" }}>
         <h1 className="contacthead">Properties</h1>
         {Array.isArray(sortedRentals)
           ? sortedRentals.map((rental, index) => {
@@ -72,7 +72,7 @@ function DisplayProperties({ sortedRentals }) {
             })
           : null}
       </div>
-    </>
+    </div>
   );
 }
 

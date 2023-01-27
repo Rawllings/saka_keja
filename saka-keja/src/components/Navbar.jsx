@@ -59,9 +59,9 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
                 className="form-select dropdown"
                 aria-label="Default select example"
                 onChange={filterSizeHouse}
-                defaultValue={"All"}
+                // defaultValue={"all"}
               >
-                <option className="dropdown" value="All" selected>
+                <option value="all" selected>
                   All
                 </option>
                 <option value="Single">Single</option>

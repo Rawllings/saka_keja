@@ -32,79 +32,81 @@ function Contact() {
   }
 
   return (
-    <section className="row">
-      <h1 className="contacthead">Contacts</h1>
-      <h3>Enter your details</h3>
-      <div className=" maincontact card px-1000">
-        <form class="card-body card" onSubmit={handleAdd}>
-          <div class="mb-3">
-            <label class="form-label">Enter email</label>
-            <input
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              type="text"
-              class="form-control"
-              id="exampleFormControlInput1"
-            />
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Password</label>
-            <input
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              type="text"
-              class="form-control"
-              id="exampleFormControlInput1"
-            />
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Enter phone</label>
-            <input
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              type="text"
-              class="form-control"
-              id="exampleFormControlInput1"
-            />
-          </div>
-
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">
-              Description
-            </label>
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-          <input type="submit" class="btn btn-success" value="Submit" />
-        </form>
-
-        {/* our contacts  */}
-        <div className=" card ourcontact  col-sm-6 ">
-          <div className="contact ">
-            <h2>Our Contacts</h2>
-            <p></p>
-
-            <div className="mb-3">
-              <h3>Mobile</h3>
-              <h4>+254727371199</h4>
+    <div className="container-flex card">
+      <section className="row">
+        <h1 className="contacthead">Contacts</h1>
+        <h3>Enter your details</h3>
+        <div className=" maincontact card px-1000">
+          <form class="card-body card" onSubmit={handleAdd}>
+            <div class="mb-3">
+              <label class="form-label">Enter email</label>
+              <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
             </div>
-            <div className="mb-3">
-              <h3>Email</h3>
-              <h4>saka.keja@gmail.com</h4>
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
             </div>
-            <div className="mb-3">
-              <h3>Address</h3>
-              <h4>30100-Nakuru</h4>
+            <div class="mb-3">
+              <label class="form-label">Enter phone</label>
+              <input
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">
+                Description
+              </label>
+              <textarea
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <input type="submit" class="btn btn-success" value="Submit" />
+          </form>
+
+          {/* our contacts  */}
+          <div className=" card ourcontact  col-sm-6 ">
+            <div className="contact ">
+              <h2>Our Contacts</h2>
+              <p></p>
+
+              <div className="mb-3">
+                <h3>Mobile</h3>
+                <h4>+254727371199</h4>
+              </div>
+              <div className="mb-3">
+                <h3>Email</h3>
+                <h4>saka.keja@gmail.com</h4>
+              </div>
+              <div className="mb-3">
+                <h3>Address</h3>
+                <h4>30100-Nakuru</h4>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 
