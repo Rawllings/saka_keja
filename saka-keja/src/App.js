@@ -13,6 +13,9 @@ import AddProperty from "./components/Body/AddProperty";
 // import Layout from "./components/Layout";
 
 function App() {
+
+ 
+
   const [rentals, setRentals] = useState([]);
   const [search, setSearch] = useState("");
   const [filteredRentals, setFilteredRentals] = useState("all");

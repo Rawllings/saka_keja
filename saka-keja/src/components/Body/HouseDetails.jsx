@@ -12,9 +12,9 @@ function HouseDetails() {
   }, [id]);
 
   return (
-    <div>
+    <div style={{paddingLeft:"100px"}}>
       <h1 className="text-center">House Details</h1>
-      House {id}
+
       <div className="col-2 mb-4 center">
         <div className="row no-gutters" style={{ width: "18rem;" }}>
           <div className="row ">

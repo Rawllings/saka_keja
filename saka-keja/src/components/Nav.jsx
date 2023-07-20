@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
+function Nav({ handleSearch, setFilteredRentals, filteredRentals }) {
   function filterSizeHouse(e) {
     setFilteredRentals(e.target.value);
   }
@@ -11,7 +11,7 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
       <nav className="header navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <h1 className="logoo ">
-            Saka-<span className="keja text-8xl">keja</span>
+            Saka-<span className="keja">keja</span>
           </h1>
           <button
             className="navbar-toggler"
@@ -93,4 +93,4 @@ function Navbar({ handleSearch, setFilteredRentals, filteredRentals }) {
   );
 }
 
-export default Navbar;
+export default Nav;
